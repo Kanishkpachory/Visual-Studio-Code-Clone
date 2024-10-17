@@ -1,0 +1,111 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    margin: 0;
+}
+
+/* Main container for the navigation */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #007acc; VS Code primary blue */
+    padding: 10px 20px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Flex container for the image and title */
+.side-by-side {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+/* Logo container */
+.image-container img {
+    width: 80px;
+    height: 50px;
+    z-index: 10; /* Ensure it’s on top if needed */
+    position: absolute;
+    left: -10px;
+}
+
+/* Title container */
+.title-container .title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    z-index: 2; /* Ensure it’s below the image if needed */
+    position: relative; /* Ensure positioning context */
+    right: 10px; /* Add units to right property */
+}
+
+/* Styling for the navigation links */
+.nav-container a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.nav-container a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the image, input and button */
+.nav-container img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.nav-container input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+    background-color: #333;
+    color: white;
+}
+
+.nav-container button {
+    padding: 8px 12px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.nav-container button:hover {
+    background-color: #005fa3;
+}
+
+/* Version information section */
+div a {
+    color: #007acc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
