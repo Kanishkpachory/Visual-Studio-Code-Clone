@@ -48,7 +48,3 @@ If you'd like to contribute to this project, please fork the repository and subm
 
 ## License
 This project is licensed under the MIT License.
-EOL
-
-# Notify that README.md has been created
-echo "README.md has been created with detailed content."
