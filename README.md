@@ -1,7 +1,3 @@
-#!/bin/bash
-
-# Create README.md with detailed content
-cat <<EOL > README.md
 # Visual-Studio-Code-Clone
 
 ## Overview
